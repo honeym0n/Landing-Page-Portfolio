@@ -1,0 +1,67 @@
+@font-face {
+  font-family: Tania;
+  src: url(./fuentes/Poppins-Light.ttf);
+}
+
+@font-face {
+  font-family: Tania2;
+  src: url(./fuentes/Poppins-Bold.ttf);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: whitesmoke;
+  font-family: "Tania";
+}
+
+.login-box {
+  background-color: white;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  width: 250px;
+  margin: 100px auto;
+  height: 350px;
+  padding: 50px;
+}
+
+.avatar {
+  width: 200px;
+  height: 200px;
+
+  display: flex;
+  align-self: center;
+}
+
+.login-box input {
+  font-family: "Tania";
+  width: 100%;
+  margin-bottom: 10px;
+  background-color: whitesmoke;
+  border: none;
+  outline: none;
+  height: 30px;
+}
+
+.login-box input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 32px;
+  font-size: 20px;
+  cursor: pointer;
+  color: #ffffff;
+  background: rgb(230, 143, 29);
+  font-family: "Tania2";
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: rgb(230, 143, 29);
+}
+
