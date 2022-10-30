@@ -44,6 +44,7 @@ body {
   border: none;
   outline: none;
   height: 30px;
+  border-radius: 10px;
 }
 
 .login-box input[type="submit"] {
@@ -63,5 +64,6 @@ a {
 
 a:hover {
   color: rgb(230, 143, 29);
+  
 }
 
