@@ -9,313 +9,203 @@
 }
 
 * {
-  font-family: "Tania2";
-  
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Tania";
 }
 
-.wrapper {
-  max-width: 1400px;
-  margin-right: 12%;
+header .logo {
+  width: 150px;
+  height: 150px;
+  
 }
 
-body {
-  background-color: #FD9B65;
+section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background: url(./imagenes/mascotas-6.png)no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 header {
+  position: relative;
+  top: 0;
   width: 100%;
-  
-  
-}
-
-header nav{
-  
+  padding: 10px 100px;
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
 }
 
-header nav img {
-  width: 20%;
+header .navigation a{
+  color:white;
   
-}
-
-.links {
-  display: flex;
-  gap: 15px;
-}
-
-.links .link {
-  color: white;
-  font-size: 0.5rem;
   text-decoration: none;
-  padding: 6px 0;
-  transition: all 0, 3s;
-}
-
-.links .link:hover {
-  transform: scale(1.1);
-}
-
-
-.links .link.active {
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding: 2px 15px;
   border-radius: 20px;
-  background-color: white;
-  color: #FD9B65;
-  padding: 6px 20px;
-}
-
-
-
-
-.mascotas {
-  
- 
-  
-  
-  position: absolute;
-  bottom: 40%;
-  left: 40%;
-  width: 60%;
-}
-
-.main-page {
-  background-color: black;
+  transition: 0.3s;
   
 }
 
-
-
-
-
-  
-  
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: "Tania2";
-  font-size: 16px;
-}
-
-body {
-  background-color: #f5f5f5;
-}
-
-.header {
-  display: flex;
-  justify-content: space-between;
-
-  align-items: center;
-  height: 90px;
-}
-.header .logo img {
-  height: 150px;
-  width: 150px;
-  margin-left: 30px;
-  margin-top: 8px;
-  transition: all 0, 3s;
-}
-
-.header .logo img:hover {
-  transform: scale(1.2);
-}
-
-.header .logo {
-  cursor: pointer;
-}
-
-.header .nav-links {
-  list-style: none;
-  margin-right: auto;
-}
-
-.header .nav-links li {
-  display: inline-block;
-  padding: 0 20px;
-}
-
-.header .nav-links li:hover {
-  transform: scale(1.1);
-}
-
-.header .nav-links a {
-  color: black;
-  text-decoration: none;
-}
-
-.header .nav-links a:hover {
-  color: #f7b23a;
-}
-
-.logito1 img {
-  width: 17px;
-  cursor: pointer;
-
-  margin-left: 290px;
-
-  transition: all 0, 3s;
-}
-
-.logito1 img:hover {
-  transform: scale(1.1);
-}
-.logito2 img {
-  height: 17px;
-  cursor: pointer;
-  transition: all 0, 3s;
-}
-.logito2 img:hover {
-  transform: scale(1.1);
-}
-
-.iniciar-sesion a{
-  display: inline-block;
-  text-decoration: none;
-  color: #f7b23a;
-  transition: all 0, 3s;
-}
-
-.iniciar-sesion a:hover {
-  transform: scale(1.1);
-}
-
-.header .boton button {
-  display: inline-block;
-  width: 120px;
-
-  height: 35px;
-  background: #f7b23a;
-  color: white;
-  border: none;
-  border-radius: 30px;
+header .navigation a:not(:last-child) {
   margin-right: 30px;
-  cursor: pointer;
-  transition: all 0, 3s;
 }
-
-.header .boton button:hover {
-  transform: scale(1.1);
-}
-
-.buscar {
-  position: absolute;
-  left: 750px;
-  
-}
-
-.buscar input {
-margin-left: 50px;
-
-
-  width: 220px;
-  height: 30px;
-  border: none;
-  border-radius: 30px;
+header .navigation a:hover {
   background: white;
-
-  transition: all 0.6s ease;
-  font-family: "Tania";
-  font-size: 15px;
+  color: #FD9B65;
 }
 
-
-
-
-.hero__texts {
-  position: absolute;
-  top: 200px;
-  left: 150px; 
+.content {
+  max-width: 650px;
+  margin: 60px 100px;
 }
 
-.hero__title{
-  font-size: 50px;
-}
-
-.otro-color{
-  
-  font-size: 50px;
-  color: #f7b23a;
-}
-
-.hero__paragraph{
-  font-size: 18px;
-  margin: 0 0 35px 0;
- 
-  
-}
-
-.otro-color2{
-color: #f7b23a;
-font-size: 18px;
-}
-
-.btn button{
-width: 200px;
-height: 35px;
-
-  font-size: 20px;
-  background-color:#f7b23a;
+.content .info h2 {
+  font-family: "Tania2";
   color: white;
-  border: none;
+  font-size: 60px;
   
-  cursor: pointer;
-  transition: all 0, 3s;
+  line-height: 20px;
+  margin-bottom: 30px;
 }
 
-.btn button:hover{
-  transform: scale(1.1);
-}
+.content .info h2 span{
+  font-family: "Tania2";
+  color: white;
+  font-size: 60px;
 
-
-
-.hero__picture {
-  position: absolute;
-  top:70px;
-  right: 150px;
-  
-} */
-
-
-
-.hero__picture img{
-  display: inline-block;
-  width: 550px;
-  height: 550px;
+  line-height: 50px;
+  margin-bottom: 50px;
 }
 
 
 
-  
-  
+
+.content .info p {
+  font-size: 20px;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.content .info-btn {
+  font-size: 20px;
+  color: #FD9B65;
+  background: white;
+  text-decoration: none;
+  font-weight: 700;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.content .info-btn:hover {
+  background: #FA8857;
+  color: white;
+}
+
+label {
+  display: none;
+}
+
+#check {
+  z-index: 3;
+  display: none;
+}
+
+/* 
+RESPONSIVE STYLES */
+
+@media (max-width: 960px) {
+  header .navigation {
+    display: none;
+  }
+
+  label {
+    color: white;
+    display: block;
+    font-size: 25px;
+    cursor: pointer;
+  }
+
+  label .close-btn {
+    display: none; 
+  }
+
+  #check:checked ~ header .navigation {
+    z-index: 2;
+    position: fixed;
+    background: black;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #check:checked ~ header .navigation a{
+   margin-right: 0;
+   margin-bottom: 50px;
+   letter-spacing: 2px;
+  }
+
+  #check:checked ~ header label .menu-btn {
+    display: none;
+  }
+
+  #check:checked ~ header label .close-btn {
+    z-index: 2;
+    display: block;
+    position: fixed;
+  }
+
+  label .menu-btn {
+    position: absolute;
+  }
+
+  header .logo {
+    position: absolute;
+    bottom: -6px;
+  }
+
+  .content .info h2 {
+    font-size: 45px;
+    line-height: 55px;
+  }
+
+  .content .info h2 span {
+    font-size: 40xp;
+    font-weight: 600;
+  }
+
+  .content .info p {
+    font-size: 14px;
+  }
+
+}
+
+@media (max-width: 560px) {
+  .content .info h2 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+
+  .content .info h2 span {
+    font-size: 30xp;
+    font-weight: 600;
+  }
+
+  .content .info p {
+    font-size: 14px;
+  }
+}
+
