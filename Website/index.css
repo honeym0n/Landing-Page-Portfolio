@@ -9,6 +9,119 @@
 }
 
 * {
+  font-family: "Tania2";
+  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  max-width: 1400px;
+  margin-right: 12%;
+}
+
+body {
+  background-color: #FD9B65;
+}
+
+header {
+  width: 100%;
+  
+  
+}
+
+header nav{
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header nav img {
+  width: 20%;
+  
+}
+
+.links {
+  display: flex;
+  gap: 15px;
+}
+
+.links .link {
+  color: white;
+  font-size: 0.5rem;
+  text-decoration: none;
+  padding: 6px 0;
+  transition: all 0, 3s;
+}
+
+.links .link:hover {
+  transform: scale(1.1);
+}
+
+
+.links .link.active {
+  border-radius: 20px;
+  background-color: white;
+  color: #FD9B65;
+  padding: 6px 20px;
+}
+
+
+
+
+.mascotas {
+  
+ 
+  
+  
+  position: absolute;
+  bottom: 40%;
+  left: 40%;
+  width: 60%;
+}
+
+.main-page {
+  background-color: black;
+  
+}
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -192,7 +305,7 @@ height: 35px;
   top:70px;
   right: 150px;
   
-}
+} */
 
 
 
